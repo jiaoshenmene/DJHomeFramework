@@ -75,9 +75,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"ffffffff");
-    NSString *filepatch = [NSString stringWithFormat:@"%@/%@",_basePatch,_contentArray[indexPath.row]];
-    
-    NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
+//    NSString *filepatch = [NSString stringWithFormat:@"%@/%@",_basePatch,_contentArray[indexPath.row]];
+//    
+//    NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
     
 //    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 //        parameters[KxMovieParameterDisableDeinterlacing] = @(YES);
