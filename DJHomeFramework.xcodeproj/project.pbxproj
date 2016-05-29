@@ -16,6 +16,7 @@
 		8DF098751CFAF2EB00312B3A /* DJHomeFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098741CFAF2EB00312B3A /* DJHomeFrameworkTests.m */; };
 		8DF098801CFAF2EB00312B3A /* DJHomeFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0987F1CFAF2EB00312B3A /* DJHomeFrameworkUITests.m */; };
 		8DF098911CFAF32400312B3A /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098901CFAF32400312B3A /* HomeVC.m */; };
+		8DF098951CFAFE9600312B3A /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098941CFAFE9600312B3A /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		8DF098811CFAF2EB00312B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DF0988F1CFAF32400312B3A /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
 		8DF098901CFAF32400312B3A /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		8DF098931CFAFE9600312B3A /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		8DF098941CFAFE9600312B3A /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,7 @@
 				8DF0985E1CFAF2EB00312B3A /* AppDelegate.m */,
 				8DF098601CFAF2EB00312B3A /* ViewController.h */,
 				8DF098611CFAF2EB00312B3A /* ViewController.m */,
+				8DF098921CFAFE8E00312B3A /* Test */,
 				8DF0988D1CFAF32400312B3A /* DJHomeFramework */,
 				8DF098631CFAF2EB00312B3A /* Main.storyboard */,
 				8DF098661CFAF2EB00312B3A /* Assets.xcassets */,
@@ -159,6 +163,15 @@
 				8DF098901CFAF32400312B3A /* HomeVC.m */,
 			);
 			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		8DF098921CFAFE8E00312B3A /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				8DF098931CFAFE9600312B3A /* Test.h */,
+				8DF098941CFAFE9600312B3A /* Test.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF098951CFAFE9600312B3A /* Test.m in Sources */,
 				8DF098621CFAF2EB00312B3A /* ViewController.m in Sources */,
 				8DF098911CFAF32400312B3A /* HomeVC.m in Sources */,
 				8DF0985F1CFAF2EB00312B3A /* AppDelegate.m in Sources */,
