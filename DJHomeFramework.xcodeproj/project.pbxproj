@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FBE4DB69CF5B2EAE6B7AC67 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6C17D5057F034DFB9DBAF9 /* libPods.a */; };
 		8DF0985C1CFAF2EB00312B3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0985B1CFAF2EB00312B3A /* main.m */; };
-		8DF0985F1CFAF2EB00312B3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0985E1CFAF2EB00312B3A /* AppDelegate.m */; };
-		8DF098621CFAF2EB00312B3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098611CFAF2EB00312B3A /* ViewController.m */; };
 		8DF098651CFAF2EB00312B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF098631CFAF2EB00312B3A /* Main.storyboard */; };
 		8DF098671CFAF2EB00312B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF098661CFAF2EB00312B3A /* Assets.xcassets */; };
 		8DF0986A1CFAF2EB00312B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF098681CFAF2EB00312B3A /* LaunchScreen.storyboard */; };
@@ -17,6 +16,8 @@
 		8DF098801CFAF2EB00312B3A /* DJHomeFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0987F1CFAF2EB00312B3A /* DJHomeFrameworkUITests.m */; };
 		8DF098911CFAF32400312B3A /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098901CFAF32400312B3A /* HomeVC.m */; };
 		8DF098951CFAFE9600312B3A /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098941CFAFE9600312B3A /* Test.m */; };
+		8DF098A71CFB117E00312B3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098A41CFB117E00312B3A /* AppDelegate.m */; };
+		8DF098A81CFB117E00312B3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098A61CFB117E00312B3A /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A6C17D5057F034DFB9DBAF9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9E736767216AB57AAE32FC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8DF098571CFAF2EB00312B3A /* DJHomeFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJHomeFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF0985B1CFAF2EB00312B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8DF0985D1CFAF2EB00312B3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8DF0985E1CFAF2EB00312B3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8DF098601CFAF2EB00312B3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8DF098611CFAF2EB00312B3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8DF098641CFAF2EB00312B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DF098661CFAF2EB00312B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DF098691CFAF2EB00312B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +56,11 @@
 		8DF098901CFAF32400312B3A /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		8DF098931CFAFE9600312B3A /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		8DF098941CFAFE9600312B3A /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		8DF098A31CFB117E00312B3A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DF098A41CFB117E00312B3A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DF098A51CFB117E00312B3A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DF098A61CFB117E00312B3A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B48DEC2F21B0D7185191A578 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FBE4DB69CF5B2EAE6B7AC67 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,8 @@
 				8DF098731CFAF2EB00312B3A /* DJHomeFrameworkTests */,
 				8DF0987E1CFAF2EB00312B3A /* DJHomeFrameworkUITests */,
 				8DF098581CFAF2EB00312B3A /* Products */,
+				D9D6A5EDDF5DE73860299479 /* Pods */,
+				D08A97E2DD4C6A62B03819E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,10 +114,10 @@
 		8DF098591CFAF2EB00312B3A /* DJHomeFramework */ = {
 			isa = PBXGroup;
 			children = (
-				8DF0985D1CFAF2EB00312B3A /* AppDelegate.h */,
-				8DF0985E1CFAF2EB00312B3A /* AppDelegate.m */,
-				8DF098601CFAF2EB00312B3A /* ViewController.h */,
-				8DF098611CFAF2EB00312B3A /* ViewController.m */,
+				8DF098A31CFB117E00312B3A /* AppDelegate.h */,
+				8DF098A41CFB117E00312B3A /* AppDelegate.m */,
+				8DF098A51CFB117E00312B3A /* ViewController.h */,
+				8DF098A61CFB117E00312B3A /* ViewController.m */,
 				8DF098921CFAFE8E00312B3A /* Test */,
 				8DF0988D1CFAF32400312B3A /* DJHomeFramework */,
 				8DF098631CFAF2EB00312B3A /* Main.storyboard */,
@@ -174,6 +181,23 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		D08A97E2DD4C6A62B03819E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A6C17D5057F034DFB9DBAF9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9D6A5EDDF5DE73860299479 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B48DEC2F21B0D7185191A578 /* Pods.debug.xcconfig */,
+				5E9E736767216AB57AAE32FC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DF098841CFAF2EB00312B3A /* Build configuration list for PBXNativeTarget "DJHomeFramework" */;
 			buildPhases = (
+				140129D522040575DF012008 /* Check Pods Manifest.lock */,
 				8DF098531CFAF2EB00312B3A /* Sources */,
 				8DF098541CFAF2EB00312B3A /* Frameworks */,
 				8DF098551CFAF2EB00312B3A /* Resources */,
+				A6ACED7CECC4CF61335F764B /* Embed Pods Frameworks */,
+				2FE34D55D9783E0F3668033E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,16 +329,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		140129D522040575DF012008 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2FE34D55D9783E0F3668033E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6ACED7CECC4CF61335F764B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DF098531CFAF2EB00312B3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF098A71CFB117E00312B3A /* AppDelegate.m in Sources */,
 				8DF098951CFAFE9600312B3A /* Test.m in Sources */,
-				8DF098621CFAF2EB00312B3A /* ViewController.m in Sources */,
 				8DF098911CFAF32400312B3A /* HomeVC.m in Sources */,
-				8DF0985F1CFAF2EB00312B3A /* AppDelegate.m in Sources */,
 				8DF0985C1CFAF2EB00312B3A /* main.m in Sources */,
+				8DF098A81CFB117E00312B3A /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +527,7 @@
 		};
 		8DF098851CFAF2EB00312B3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B48DEC2F21B0D7185191A578 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DJHomeFramework/Info.plist;
@@ -463,6 +539,7 @@
 		};
 		8DF098861CFAF2EB00312B3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9E736767216AB57AAE32FC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DJHomeFramework/Info.plist;
@@ -537,6 +614,7 @@
 				8DF098861CFAF2EB00312B3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DF098871CFAF2EB00312B3A /* Build configuration list for PBXNativeTarget "DJHomeFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +623,7 @@
 				8DF098891CFAF2EB00312B3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DF0988A1CFAF2EB00312B3A /* Build configuration list for PBXNativeTarget "DJHomeFrameworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +632,7 @@
 				8DF0988C1CFAF2EB00312B3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
