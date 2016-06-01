@@ -10,6 +10,8 @@
 //#import "KxMovieViewController.h"
 
 
+
+
 @interface HomeVC()<UITableViewDelegate , UITableViewDataSource>
 @property (nonatomic , strong) UITableView *mHomeTableView;
 @property (nonatomic , strong) NSMutableArray *contentArray;
@@ -18,6 +20,9 @@
 
 @end
 @implementation HomeVC
+
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
