@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
   s.name             = "DJHomeFramework"  
-  s.version          = "0.0.7"  
+  s.version          = "0.0.8"  
   s.summary          = "A marquee view used on iOS."  
   #s.description      = <<-DESC  
    #                    It is a marquee view used on iOS, which implement by Objective-C.  
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.compiler_flags = '-w'
 
-  #s.dependency 'DJCommonFrameWork'
+  
   
   s.source_files = 'DJHomeFramework_a/**/*.{h,m}'  
   # s.resources = 'Assets'  
@@ -32,6 +32,11 @@ Pod::Spec.new do |s|
 
 
   s.requires_arc = true
+
+  s.dependency 'DJCommonFrameWork'
+
+
+
   s.frameworks = "UIKit" ,"VideoToolbox" ,"QuartzCore" ,"OpenGLES", "MobileCoreServices", "MediaPlayer", "CoreVideo", "CoreMedia", "CoreGraphics",  "AVFoundation", "AudioToolbox"
 
   

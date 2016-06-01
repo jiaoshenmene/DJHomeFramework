@@ -9,6 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface DJHomeJumpHandle : NSObject
-//+ (nonnull DJHomeJumpHandle *) getInstance;
-@property (nonatomic, assign) BOOL      isInter;   
++ (nonnull DJHomeJumpHandle *) getInstance;
 @end
