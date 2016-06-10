@@ -21,8 +21,6 @@
 		8DF098751CFAF2EB00312B3A /* DJHomeFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098741CFAF2EB00312B3A /* DJHomeFrameworkTests.m */; };
 		8DF098801CFAF2EB00312B3A /* DJHomeFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0987F1CFAF2EB00312B3A /* DJHomeFrameworkUITests.m */; };
 		8DF098951CFAFE9600312B3A /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098941CFAFE9600312B3A /* Test.m */; };
-		8DF098A71CFB117E00312B3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098A41CFB117E00312B3A /* AppDelegate.m */; };
-		8DF098A81CFB117E00312B3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF098A61CFB117E00312B3A /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,10 +78,6 @@
 		8DF098811CFAF2EB00312B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DF098931CFAFE9600312B3A /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		8DF098941CFAFE9600312B3A /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
-		8DF098A31CFB117E00312B3A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8DF098A41CFB117E00312B3A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8DF098A51CFB117E00312B3A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8DF098A61CFB117E00312B3A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B48DEC2F21B0D7185191A578 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,10 +171,6 @@
 		8DF098591CFAF2EB00312B3A /* DJHomeFramework */ = {
 			isa = PBXGroup;
 			children = (
-				8DF098A31CFB117E00312B3A /* AppDelegate.h */,
-				8DF098A41CFB117E00312B3A /* AppDelegate.m */,
-				8DF098A51CFB117E00312B3A /* ViewController.h */,
-				8DF098A61CFB117E00312B3A /* ViewController.m */,
 				8DF098921CFAFE8E00312B3A /* Test */,
 				8DF098631CFAF2EB00312B3A /* Main.storyboard */,
 				8DF098661CFAF2EB00312B3A /* Assets.xcassets */,
@@ -459,12 +449,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF098A71CFB117E00312B3A /* AppDelegate.m in Sources */,
 				8DF098951CFAFE9600312B3A /* Test.m in Sources */,
 				8DF0985C1CFAF2EB00312B3A /* main.m in Sources */,
 				8DB7F3021CFDB93A007509E1 /* HomeVC.m in Sources */,
 				8DB7F2FC1CFDB62F007509E1 /* DJHomeJumpHandle.m in Sources */,
-				8DF098A81CFB117E00312B3A /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +691,7 @@
 				8DB7F2F81CFDB5EA007509E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DF098521CFAF2EB00312B3A /* Build configuration list for PBXProject "DJHomeFramework" */ = {
 			isa = XCConfigurationList;

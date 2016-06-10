@@ -40,7 +40,7 @@
     fileList = [fileManager contentsOfDirectoryAtPath:docDir error:&error];
     _contentArray = [fileList mutableCopy];
     
-   
+    self.view.backgroundColor = [UIColor whiteColor];
     
     NSLog(@"路径==%@,fileList%@",docDir,fileList);
 

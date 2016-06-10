@@ -37,7 +37,13 @@
 
 - (BOOL) canOpenURL:(nonnull NSURL *)url
 {
+    
     if ([url.host isEqualToString:@"home"]) {
+        NSString *searchType = [url relativePath];
+        if ([searchType isEqualToString:@"homevc"]) {
+            NSLog(@"yes");
+        }
+        NSLog(@"home");
         return YES;
     }
     return NO;
@@ -45,9 +51,20 @@
 
 - (nullable UIViewController *) connectToOpenURL:(nonnull NSURL *)url params:(nullable NSDictionary *)params
 {
-    if ([url.host isEqualToString:@"homevc"]) {
-        HomeVC * homevc = [[HomeVC alloc] init];
-        return homevc;
+     NSString *relativePath = [url relativePath];
+    NSLog(@"url = %@,params = %@,host = %@,searchType = %@",url,params,url.host,relativePath);
+    
+    
+
+    if ([url.host isEqualToString:@"home"]) {
+        
+       
+        if ([relativePath isEqualToString:@"/homevc"]) {
+            HomeVC * homevc = [[HomeVC alloc] init];
+            return homevc;
+        }
+        
+        
     }
     return nil;
 }

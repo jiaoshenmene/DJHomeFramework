@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.dependency 'DJCommonFrameWork'
+  #s.dependency 'DJCommonFrameWork'
 
 
 
